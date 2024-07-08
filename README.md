@@ -1,11 +1,12 @@
 # Website Audio Scraper
 
-This is a FastAPI-based web application that scrapes audio links from a given website and downloads them to the projects 'downloads' folder.
+This is a FastAPI-based web application that scrapes audio links from a given website and downloads them to the project's 'downloads' folder.
 
 ## Installation
 
 1. Clone this repository
-2. Install the required packages (Optional: create a virtual env using python):
+2. Install the required packages (Optional: create a virtual env using Python):
+
     ```bash
     pip install -r requirements.txt
     ```
@@ -13,6 +14,7 @@ This is a FastAPI-based web application that scrapes audio links from a given we
 ## Usage
 
 1. Run the FastAPI server:
+
     ```bash
     uvicorn app.main:app --reload
     ```
